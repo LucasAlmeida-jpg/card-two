@@ -1,0 +1,159 @@
+@media (max-width: 768px) {
+
+    body {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: sans-serif;
+        text-decoration: none;
+
+    }
+
+    /* html,
+    body {
+        overflow-x: hidden;
+    } */
+
+    .header {
+        position: fixed;
+        width: 100%;
+        top: 0;
+        background-color: #259AA7;
+        color: white;
+        height: 58px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0px;
+        z-index: 1;
+    }
+    .course{
+        position: absolute;
+        margin-bottom: -450px;
+    }
+
+
+    .header h1 {
+        font-size: 17px;
+        font-weight: 500;
+        margin-left: 12px;
+        margin-top: 7px;
+        position: relative;
+    }
+
+    .header h1::before {
+        content: "\2190";
+        margin-right: 6px;
+
+    }
+
+    .main {
+        margin-top: 90px;
+        margin-bottom: 250px;
+    }
+
+    .card {
+        border-radius: 20px !important;
+        min-height: 200px;
+    }
+
+    .card img {
+        width: 115px;
+        object-fit: cover;
+        margin-left: -19px;
+    }
+
+    .card .person {
+        width: 61px;
+        border-radius: 4px;
+        object-fit: cover;
+    }
+
+    .card-text {
+        font-size: 19px;
+        position: absolute;
+        bottom: 30px;
+        font-weight: 400;
+    }
+
+    .card-text-name {
+        font-size: 14px;
+        position: absolute;
+        bottom: 9px;
+        font-weight: 500;
+        margin-right: 10px;
+        color: black !important;
+    }
+
+    .card-text-matricula {
+        font-size: 17px;
+        bottom: 26px;
+        margin-left: 33px;
+        position: absolute;
+        font-weight: 400;
+        color: white;
+    }
+
+    .card-secondary {
+        background-color: #259AA7;
+        border-radius: 20px !important;
+
+    }
+
+    .bar img {
+        min-width: 231px !important;
+        height: 47px !important;
+        margin-top: -86px;
+        background: white;
+        padding: 2px;
+    }
+
+    .bottom-bar {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: #259AA7;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        padding: 20px 0;
+    }
+
+    .icon {
+        color: #fff;
+        font-size: 13px;
+        text-align: center;
+        transition: color 0.3s;
+    }
+
+    .icon i {
+        display: block;
+    }
+
+    .qr {
+        width: 96px;
+    }
+
+    .validar {
+        font-size: 12px;
+    }
+
+    .info {
+        font-size: 10px;
+        margin-bottom: -1px;
+    }
+
+    .message-card {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1000;
+        background: white;
+        padding: 8px;
+        border-radius: 8px;
+        font-weight: 500;
+        color: red;
+    }
+}
